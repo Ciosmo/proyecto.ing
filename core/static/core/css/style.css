@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+
+body {
+  background-color: #293241;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
+  background: #333;
+  color: white;
+  text-align: center;  
+
+}
+nav{
+    margin-top: -1.6em;
+}
+
+#copyright{
+    letter-spacing: 0.3em;
+
+}
+.carousel-item{
+    height: 40em !important;
+}
+
+.estilo{
+    margin-top: 3.5em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+label.error{
+    margin-top: 0.625em;
+    color: red;
+
+}
+#formulario{
+    width: 80em;
+    display: inline-block;
+    background-color: #fff;
+    font-style: italic;
+    border-radius: 0.625em;
+    padding-left: 0.625em;
+    padding-top: 0.625em;
+}
+#boton-ql{
+    margin: 1em;
+}
+#comentario{
+    height: 6.25em;
+    width: 25em;
+    resize: none;
+}
+#caja{
+    margin-top: 1.0em;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    width: 18rem;
+}
+.cartas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.texto{
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+    text-align: center;
+    margin-top: 1em;
+    letter-spacing: 0.3rem;
+}
+.carousel-inner img{
+ object-fit: cover;
+  width: 100%;
+  height: 32rem;
+}
