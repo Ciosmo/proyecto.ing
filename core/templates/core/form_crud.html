@@ -1,0 +1,20 @@
+{%extends 'core/base.html'%}
+
+{%load static%}
+
+{%block content%}
+    <h1 style="color: white; text-align: center;"> Formulario abogado</h1>
+    <form style="color: white;" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            {{form.as_table}}
+        </div>
+        <button class="btn btn-secondary" type="reset">Limpiar</button>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+        <div class="error" class="alert alert-danger" role="alert"></div>
+    </form>
+    <div class="alert alert-success" role="alert">
+        {{mensaje}}
+    </div>
+
+{%endblock%}
